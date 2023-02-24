@@ -7,3 +7,4 @@ Anasayfa Middle - Bihter Ertürk, Muhammet Tungaç
 muhammet kuş: Şubelerimiz Sayfasi
 halil can uzun: Konseptler Sayfasi
 enes kay: Franchise Sayfasi
+Benim Diyarım -->kahveler : Talha Emre UZUNOĞLU
