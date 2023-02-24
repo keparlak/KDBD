@@ -1,11 +1,12 @@
 # KahveDiyari
-Mert Furkan Hız> https://www.benimdiyarim.com/ (Online alışveriş anasayfa content)
-Taha Yasin Öztürk => KahveDiyarının Kurumsal Sayfası
-Canberk Coşkun : Online Navbar - Footer  https://www.benimdiyarim.com/ 
-Anasayfa Navbar ve Footer - Elif Nur Kutluğ
-Anasayfa Middle - Bihter Ertürk, Muhammet Tungaç
-muhammet kuş: Şubelerimiz Sayfasi
-halil can uzun: Konseptler Sayfasi
-enes kay: Franchise Sayfasi
-Benim Diyarım -->kahveler : Talha Emre UZUNOĞLU
-uğur kartal - İletişim Sayfası
+ - [ ]Mert Furkan Hız: https://www.benimdiyarim.com/ (Online alışveriş anasayfa content)
+ - [ ]Taha Yasin Öztürk: kahvediyari.com.tr (Kurumsal Sayfası)
+ - [ ]Canberk Coşkun: benimdiyarim.com (Navbar - Footer)
+ - [ ]Elif Nur Kutluğ: kahvediyari.com.tr (Navbar ve Footer)
+ - [ ]Bihter Ertürk, Muhammet Tungaç: kahvediyari.com.tr (Anasayfa Middle)
+ - [ ]Muhammet Kuş: kahvediyari.com.tr (Şubelerimiz Sayfasi)
+ - [ ]Halil Can Uzun: kahvediyari.com.tr (Konseptler Sayfasi)
+ - [ ]Enes Eay: kahvediyari.com.tr (Franchise Sayfasi)
+ - [ ]Talha Emre UZUNOĞLU: benimdiyarim.com (Kahveler)
+ - [ ]Uğur Kartal: kahvediyari.com.tr (İletişim Sayfası)
+ - [ ]Kadir Emre Parlak: benimdiyarim.com (Giriş Yap - Üye Ol)
