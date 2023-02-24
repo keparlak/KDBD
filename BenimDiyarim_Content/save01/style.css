@@ -2,14 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.fontVag {
-  font-family: Vag;
-}
-.fontSerif {
-  font-family: serif;
-}
-.fontVagSerif {
   font-family: Vag, serif;
 }
 
@@ -22,4 +14,7 @@
 .centerFlex {
   display: flex;
   justify-content: center;
+}
+.wrapper {
+  width: 85% !important;
 }
