@@ -1,419 +1,447 @@
-<section class="section-products">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-md-8 col-lg-6">
-        <div class="header">
-          <link rel="stylesheet" href="./bd_kahveler.css" />
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-          />
-          <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-            crossorigin="anonymous"
-          />
-          <title>Kahve Çeşitleri</title>
-          <style>
-            i {
-              position: relative;
-              margin-top: -20px;
-              margin-left: 260px;
-              font-size: large;
-            }
-          </style>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!-- Product 1.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-1" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%26 </span>
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35.00</h4>
-            <h4 class="product-price">₺26.00</h4>
-            <i class="fa-regular fa-heart"></i>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bd_kahveler.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Kahve Çeşitleri</title>
+  </head>
+  <body>
+    <section class="section-products">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="header">
+              <ul class="sortingContent"></ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Product 1.2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-2" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%20 </span>
+        <div class="main-container col-12 border">
+          <div class="siralamamain col-10 d-flex justify-content-start border">
+            <div class="siralama d-flex justify-content-start border">
+              <select onchange="sortingClick(value)">
+                <option value="1" selected="selected">Sıralama Seçiniz</option>
+                <option value="2">Fiyata Göre (Artan)</option>
+                <option value="3">Fiyata Göre (Azalan)</option>
+                <option value="4">Ürün Adına Göre (A&gt;Z)</option>
+                <option value="5">Ürün Adına Göre (Z&lt;A)</option>
+              </select>
+            </div>
+            <div class="stoktakiler d-flex justify-content-end border">
+              <input type="checkbox" class="mx-2 align-items-center" />
+              <p class="align-items-center">Stoktakiler</p>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Dağ Çilekli Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35.00</h4>
-            <h4 class="product-price">₺28.00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 1.3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-3" class="single-product product-shadow">
-          <div class="part-1"><span class="discount">%30 </span></div>
-          <div class="part-2">
-            <h3 class="product-title">Damla Sakızlı Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺40,00</h4>
-            <h4 class="product-price">₺28,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <div class="urunbilgisi col-2">
+            <p>21 Ürün</p>
           </div>
         </div>
-      </div>
-      <!-- Product 1.4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%20 </span>
-            <img
-              src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/gullu-lokumlu-turk-kahvesi-100-gr-ad2b-4.jpg"
-              alt=""
-              class="product-img"
-            />
+        <hr />
+        <div class="row">
+          <!-- Product 1.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-1" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%26 </span>
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35.00</h4>
+                <h4 class="product-price">₺26.00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Güllü Lokumlu Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺28,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 1.2 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-2" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%20 </span>
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Dağ Çilekli Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35.00</h4>
+                <h4 class="product-price">₺28.00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 2.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%26 </span>
-            <img
-              src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/dibek-turk-kahvesi-100-gr-e-5a33.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 1.3 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-3" class="single-product product-shadow">
+              <div class="part-1"><span class="discount">%30 </span></div>
+              <div class="part-2">
+                <h3 class="product-title">Damla Sakızlı Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺40,00</h4>
+                <h4 class="product-price">₺28,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Dibek Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺26,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 1.4 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%20 </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/gullu-lokumlu-turk-kahvesi-100-gr-ad2b-4.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Güllü Lokumlu Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺28,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 2.2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-2" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/dag-cilekli-turk-kahvesi-250-gr-2093b8.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 2.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%26 </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/dibek-turk-kahvesi-100-gr-e-5a33.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Dibek Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺26,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Dağ Çilekli Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 2.2 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-2" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/dag-cilekli-turk-kahvesi-250-gr-2093b8.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Dağ Çilekli Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 2.3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-3" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/dibek-turk-kahvesi-250-gr-b4ec10.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
+          <!-- Product 2.3 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-3" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/dibek-turk-kahvesi-250-gr-b4ec10.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
 
-          <div class="part-2">
-            <h3 class="product-title">Dibek Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
+              <div class="part-2">
+                <h3 class="product-title">Dibek Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 2.4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-4" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/gullu-lokumlu-turk-kahvesi-250-gr-0060a3.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 2.4 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-4" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/gullu-lokumlu-turk-kahvesi-250-gr-0060a3.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Güllü Lokumlu Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Güllü Lokumlu Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 3.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%27 </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/menengic-turk-kahvesi-250-gr-c7-b04.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Menengiç Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺99,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 3.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%27 </span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/menengic-turk-kahvesi-250-gr-c7-b04.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 3.2 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-2" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%8</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/turk-kahvesi-250-gr-85e-8b.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Klasik Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺75,00</h4>
+                <h4 class="product-price">₺69,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Menengiç Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺99,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 3.3 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div id="product-3" class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%4</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/filtre-kahve-250-gr-9e6fa6.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Filtre Kahve 250 Gr</h3>
+                <h4 class="product-old-price">₺90,00</h4>
+                <h4 class="product-price">₺86,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 3.2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-2" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%8</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/turk-kahvesi-250-gr-85e-8b.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 3.4 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1 favori">
+                <span class="discount">%13</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/damla-sakizli-turk-kahvesi-250gr-e620a6.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Damla Sakızlı Türk Kahvesi 250Gr</h3>
+                <h4 class="product-old-price">₺85,00</h4>
+                <h4 class="product-price">₺74,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Klasik Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺75,00</h4>
-            <h4 class="product-price">₺69,00</h4>
-            <i class="fa-regular fa-heart"></i>
+          <!-- Product 4.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%26 </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bademli-turk-kahvesi-100-gr--01da-.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Bademli Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺26,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Product 3.3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div id="product-3" class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%4</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/filtre-kahve-250-gr-9e6fa6.jpg"
-              alt=""
-              class="product-img"
-            />
+          <!-- Product 4.2 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%26</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bogurtlenli-turk-kahvesi-100-gr-299-aa.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Böğürtlenli Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺26,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
-          <div class="part-2">
-            <h3 class="product-title">Filtre Kahve 250 Gr</h3>
-            <h4 class="product-old-price">₺90,00</h4>
-            <h4 class="product-price">₺86,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 3.4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1 favori">
-            <span class="discount">%13</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/damla-sakizli-turk-kahvesi-250gr-e620a6.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Damla Sakızlı Türk Kahvesi 250Gr</h3>
-            <h4 class="product-old-price">₺85,00</h4>
-            <h4 class="product-price">₺74,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 4.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%26 </span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bademli-turk-kahvesi-100-gr--01da-.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Bademli Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺26,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 4.2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%26</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bogurtlenli-turk-kahvesi-100-gr-299-aa.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Böğürtlenli Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺26,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 4.3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%17</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/findikli-turk-kahvesi-100-gr-507315.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
+          <!-- Product 4.3 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%17</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/findikli-turk-kahvesi-100-gr-507315.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
 
-          <div class="part-2">
-            <h3 class="product-title">Fındıklı Türk Kahvesi 100 Gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺29,00</h4>
-            <i class="fa-regular fa-heart"></i>
+              <div class="part-2">
+                <h3 class="product-title">Fındıklı Türk Kahvesi 100 Gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺29,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 4.4 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bademli-turk-kahvesi-250-gr--46fc-.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Bademli Türk Kahvesi 250 gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bogurtlenli-turk-kahvesi-250-gr-75b2db.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Böğürtlenli Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5.2 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%10</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/findikli-turk-kahvesi-250-gr-43e5-a.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Fındıklı Türk Kahvesi 250 Gr</h3>
+                <h4 class="product-old-price">₺80,00</h4>
+                <h4 class="product-price">₺72,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5.3 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%43</span>
+                <span class="new2">Yeni </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/kahve-diyari-klasik-turk-kahvesi-100-g-c-4b92.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">Klasik Türk Kahvesi 100 gr</h3>
+                <h4 class="product-old-price">₺35,00</h4>
+                <h4 class="product-price">₺19,90</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5.4 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%24</span>
+                <span class="new2">Yeni </span>
+                <img
+                  src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/klasik-turk-kahvesi-3-adet-x-100-gr-a4c15a.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">
+                  Klasik Türk Kahvesi 3 Adet x 100 gr
+                </h3>
+                <h4 class="product-old-price">₺85,00</h4>
+                <h4 class="product-price">₺64,90</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Product 6.1 -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="single-product product-shadow">
+              <div class="part-1">
+                <span class="discount">%5</span>
+                <img
+                  src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/klasik-turk-kahvesi-24-adex-x-100-gr-d6-c9b.jpg"
+                  alt=""
+                  class="product-img"
+                />
+              </div>
+              <div class="part-2">
+                <h3 class="product-title">
+                  Klasik Türk Kahvesi 24 Adex x 100 gr
+                </h3>
+                <h4 class="product-old-price">₺450,00</h4>
+                <h4 class="product-price">₺429,00</h4>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Product 4.4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bademli-turk-kahvesi-250-gr--46fc-.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Bademli Türk Kahvesi 250 gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 5.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/bogurtlenli-turk-kahvesi-250-gr-75b2db.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Böğürtlenli Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 5.2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%10</span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/findikli-turk-kahvesi-250-gr-43e5-a.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Fındıklı Türk Kahvesi 250 Gr</h3>
-            <h4 class="product-old-price">₺80,00</h4>
-            <h4 class="product-price">₺72,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 5.3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%43</span>
-            <span class="new2">Yeni </span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/kahve-diyari-klasik-turk-kahvesi-100-g-c-4b92.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Klasik Türk Kahvesi 100 gr</h3>
-            <h4 class="product-old-price">₺35,00</h4>
-            <h4 class="product-price">₺19,90</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 5.4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%24</span>
-            <span class="new2">Yeni </span>
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/urunresimleri/buyuk/klasik-turk-kahvesi-3-adet-x-100-gr-a4c15a.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Klasik Türk Kahvesi 3 Adet x 100 gr</h3>
-            <h4 class="product-old-price">₺85,00</h4>
-            <h4 class="product-price">₺64,90</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Product 6.1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="single-product product-shadow">
-          <div class="part-1">
-            <span class="discount">%5</span>
-            <img
-              src="https://static.ticimax.cloud/43426/Uploads/UrunResimleri/thumb/klasik-turk-kahvesi-24-adex-x-100-gr-d6-c9b.jpg"
-              alt=""
-              class="product-img"
-            />
-          </div>
-          <div class="part-2">
-            <h3 class="product-title">Klasik Türk Kahvesi 24 Adex x 100 gr</h3>
-            <h4 class="product-old-price">₺450,00</h4>
-            <h4 class="product-price">₺429,00</h4>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="./bootstrap.bundle.js"></script>
-</section>
+      <script src="./bootstrap.bundle.js"></script>
+    </section>
+  </body>
+</html>
