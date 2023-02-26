@@ -9,4 +9,4 @@
  - [ ] Enes Eay: kahvediyari.com.tr (Franchise Sayfasi)
  - [ ] Talha Emre UZUNOĞLU: benimdiyarim.com (Kahveler)
  - [ ] Uğur Kartal: kahvediyari.com.tr (İletişim Sayfası)
- - [ ] Kadir Emre Parlak: benimdiyarim.com (Giriş Yap - Üye Ol)
+ - [X] Kadir Emre Parlak: benimdiyarim.com (Giriş Yap - Üye Ol)
