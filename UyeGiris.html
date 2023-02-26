@@ -34,12 +34,33 @@
               id="inputEmail"
               placeholder="E-posta"
             />
-            <input
-              type="password"
-              class="form-control mb-2"
-              id="sifreBtn"
-              placeholder="Şifre"
-            />
+            <div class="position-relative">
+              <div class="sifreGoz position-absolute top-50 left-100">
+                <svg
+                  aria-hidden="true"
+                  class="stUf5b"
+                  fill="currentColor"
+                  focusable="false"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  xmlns="https://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12,7c-2.48,0-4.5,2.02-4.5,4.5S9.52,16,12,16s4.5-2.02,4.5-4.5S14.48,7,12,7z M12,14.2c-1.49,0-2.7-1.21-2.7-2.7 c0-1.49,1.21-2.7,2.7-2.7s2.7,1.21,2.7,2.7C14.7,12.99,13.49,14.2,12,14.2z"
+                  ></path>
+                  <path
+                    d="M12,4C7,4,2.73,7.11,1,11.5C2.73,15.89,7,19,12,19s9.27-3.11,11-7.5C21.27,7.11,17,4,12,4z M12,17 c-3.79,0-7.17-2.13-8.82-5.5C4.83,8.13,8.21,6,12,6s7.17,2.13,8.82,5.5C19.17,14.87,15.79,17,12,17z"
+                  ></path>
+                </svg>
+              </div>
+              <input
+                type="password"
+                class="form-control mb-2"
+                id="sifreBtn"
+                placeholder="Şifre"
+              />
+            </div>
 
             <button type="submit" class="btn benimDiyarimBtn">Giriş Yap</button>
             <a href="/SifremiUnuttum" class="sifremiUnuttum">Şifremi Unuttum</a>
@@ -77,63 +98,71 @@
               id="uyeOlSifreBtn"
               placeholder="Şifre"
             />
-            <input
-              type="tel"
-              value="+90"
-              class="form-control mb-2"
-              id="hizliTel"
-              placeholder="+90"
-            />
+            <div class="position-relative">
+              <div
+                class="bayrak d-flex justify-content-center align-items-center gap-1 position-absolute top-50"
+              >
+                <img
+                  src="https://icons.iconarchive.com/icons/wikipedia/flags/48/TR-Turkey-Flag-icon.png"
+                  alt=""
+                  width="30%"
+                  height="30%"
+                />
+                <i class="bayrakOku"></i>
+              </div>
+
+              <input
+                type="tel"
+                value="+90"
+                class="form-control mb-2"
+                id="hizliTel"
+                placeholder="+90"
+              />
+            </div>
+            <div class="d-flex flex-column text-start">
+              <div
+                class="d-flex gap-2 mt-2 align-items-center"
+                style="font-size: 11px"
+              >
+                <input type="checkbox" id="chkMailPermission" /><label
+                  for="chkMailPermission"
+                  >Kampanya, duyuru, bilgilendirmelerden e-posta ile haberdar
+                  olmak istiyorum.</label
+                >
+              </div>
+              <div
+                class="d-flex gap-2 mt-2 align-items-center"
+                style="font-size: 11px"
+              >
+                <input type="checkbox" id="chkSmsPermission" /><label
+                  for="chkSmsPermission"
+                  >Kampanya, duyuru, bilgilendirmelerden sms ile haberdar olmak
+                  istiyorum.</label
+                >
+              </div>
+              <div
+                class="d-flex gap-2 mt-2 align-items-center"
+                style="font-size: 11px"
+              >
+                <input id="chkSozlesme" type="checkbox" />
+                <label for="chkSozlesme"
+                  ><strong
+                    ><a href="#" target="_blank" style="color: #ff0000"
+                      >Üyelik koşullarını</a
+                    ></strong
+                  >
+                  ve
+                  <strong
+                    ><a href="#" target="_blank" style="color: #ff0000"
+                      >kişisel verilerimin korunmasını</a
+                    ></strong
+                  >
+                  kabul ediyorum.</label
+                >
+              </div>
+            </div>
             <button type="submit" class="btn benimDiyarimBtn">Üye Ol</button>
           </form>
-          <div class="d-flex flex-column text-start">
-            <div
-              class="d-flex gap-2 mt-2 align-items-start"
-              style="font-size: 11px"
-            >
-              <input type="checkbox" id="chkMailPermission" /><label
-                for="chkMailPermission"
-                >Kampanya, duyuru, bilgilendirmelerden e-posta ile haberdar
-                olmak istiyorum.</label
-              >
-            </div>
-            <div
-              class="d-flex gap-2 mt-2 align-items-start"
-              style="font-size: 11px"
-            >
-              <input type="checkbox" id="chkSmsPermission" /><label
-                for="chkSmsPermission"
-                >Kampanya, duyuru, bilgilendirmelerden sms ile haberdar olmak
-                istiyorum.</label
-              >
-            </div>
-            <div
-              class="d-flex gap-2 mt-2 align-items-start"
-              style="font-size: 11px"
-            >
-              <input id="chkSozlesme" type="checkbox" />
-              <label for="chkSozlesme"
-                ><strong
-                  ><a
-                    href="/UyelikSozlesme.aspx"
-                    target="_blank"
-                    style="color: #ff0000"
-                    >Üyelik koşullarını</a
-                  ></strong
-                >
-                ve
-                <strong
-                  ><a
-                    href="/UyelikSozlesme.aspx?sozlemeTipi=5"
-                    target="_blank"
-                    style="color: #ff0000"
-                    >kişisel verilerimin korunmasını</a
-                  ></strong
-                >
-                kabul ediyorum.</label
-              >
-            </div>
-          </div>
         </div>
         <!-- *ÜYE OL BİTİŞ -->
       </div>

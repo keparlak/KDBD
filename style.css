@@ -8,7 +8,7 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;display=swap&amp;subset=latin-ext);
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
 }
 .maxWidth {
   max-width: 1230px !important;
@@ -70,4 +70,24 @@ body {
 .form-control:focus {
   box-shadow: none !important;
   border-color: #eee !important;
+}
+.sifreGoz {
+  margin-top: -14px;
+}
+#uyeOl input[type="tel"] {
+  text-indent: 65px;
+}
+#uyeOl input[type="checkbox"] {
+  width: 5% !important;
+}
+.bayrak {
+  margin-top: -10px;
+}
+.bayrakOku {
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
 }
