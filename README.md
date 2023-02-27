@@ -5,7 +5,7 @@
 - [X] Canberk Coşkun: benimdiyarim.com (Navbar - Footer)
 - [ ] Elif Nur Kutluğ: kahvediyari.com.tr (Navbar ve Footer)
 - [ ] Bihter Ertürk, Muhammet Tungaç: kahvediyari.com.tr (Anasayfa Middle) --> kd_index.html
-- [ ] Muhammet Kuş: kahvediyari.com.tr (Şubelerimiz Sayfasi) --> kd_subeler.html
+- [X] Muhammet Kuş: kahvediyari.com.tr (Şubelerimiz Sayfasi) --> kd_subeler.html
 - [ ] Halil Can Uzun: kahvediyari.com.tr (Konseptler Sayfasi) --> kd_konseptler.html
 - [ ] Enes Eay: kahvediyari.com.tr (Franchise Sayfasi)
 - [X] Talha Emre UZUNOĞLU: benimdiyarim.com (Kahveler)
