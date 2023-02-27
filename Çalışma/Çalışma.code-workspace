@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../KahveDiyari-benimdiyarim_login_register"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Çalışma"
+	}
+}
