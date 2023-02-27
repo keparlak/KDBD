@@ -33,10 +33,17 @@ Ending Contact
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="./bootstrap.css" />
+    <!-- <link rel="stylesheet" href="./bootstrap.css" /> -->
     <!-- Bootstrap CDN -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
@@ -267,9 +274,7 @@ Ending Contact
     <div class="row w-90 m-auto my-4">
       <div class="col-4 text-center"><hr /></div>
       <div class="col-4">
-        <h2 class="text-center" style="font-weight: bolder; padding: 0px -20px">
-          YENİ ÜRÜNLER
-        </h2>
+        <h2 class="text-center division">YENİ ÜRÜNLER</h2>
       </div>
       <div class="col-4 text-center"><hr /></div>
     </div>
@@ -278,172 +283,79 @@ Ending Contact
     <!-- Products 01 BEGIN -->
     <div class="row w-90 m-auto" style="height: 500px; display: flex">
       <!-- Products 01/Card 01 BEGIN -->
-      <div class="card col-4 m-auto w-30">
+      <div class="card bigCard col-4 m-auto w-30">
         <div style="text-align: center">
-          <span
-            style="
-              float: left;
-              background-color: black;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-          >
-            Yeni
-          </span>
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-          >
-            %43
-          </span>
-          <div style="clear: both"></div>
+          <span class="px-2 spanNew"> Yeni </span>
+          <span class="px-2 spanSale"> %43 </span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/klasik-t%C3%BCrk-kahvesi-100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 250px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/kahve-diyari-klasik-turk-kahvesi-100-g-c-4b92.jpg"
               alt=""
             />
-            <p>Klasik Türk Kahvesi 100 gr</p>
+            <p class="textInCard">Klasik Türk Kahvesi 100 gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺19,90</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺19,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
-          ></span>
+          <span class="heart">
+            <a href="">
+              <i class="fa-sharp fa-regular fa-heart"></i>
+            </a>
+          </span>
         </div>
       </div>
       <!-- Products 01/Card 01 ENDS -->
       <!-- Products 01/Card 02 BEGIN -->
-      <div class="card col-4 m-auto w-30">
+      <div class="card bigCard col-4 m-auto w-30">
         <div style="text-align: center">
-          <span
-            style="
-              float: left;
-              background-color: black;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >Yeni</span
-          >
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%24</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanNew">Yeni</span>
+          <span class="px-2 spanSale">%24</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/kahve-diyar%C4%B1-bitter-%C3%A7ikolatal%C4%B1-gofret-30-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 250px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/kahve-diyari-bitter-cikolatali-gofret--a4ba-5.jpg"
               alt=""
             />
-            <p>Kahve Diyarı Bitter Çikolatalı Gofret 30 gr</p>
+            <p class="textInCard">
+              Kahve Diyarı Bitter Çikolatalı Gofret 30 gr
+            </p>
           </a>
-          <span style="float: left"
-            ><p><strike>₺13,00</strike> <b style="font-size: 20px">₺9,90</b></p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺13,00</strike> <b>₺9,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
-          ></span>
+          <span class="heart">
+            <a href="">
+              <i class="fa-sharp fa-regular fa-heart"></i>
+            </a>
+          </span>
         </div>
       </div>
       <!-- Products 01/Card 02 ENDS -->
       <!-- Products 01/Card 03 BEGIN -->
-      <div class="card col-4 m-auto w-30">
+      <div class="card bigCard col-4 m-auto w-30">
         <div style="text-align: center">
-          <span
-            style="
-              float: left;
-              background-color: black;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >Yeni</span
-          >
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%43</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanNew">Yeni</span>
+          <span class="px-2 spanSale">%43</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/klasik-t%C3%BCrk-kahvesi-100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 250px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/kahve-diyari-klasik-turk-kahvesi-100-g-c-4b92.jpg"
               alt=""
             />
-            <p>Klasik Türk Kahvesi 100 gr</p>
+            <p class="textInCard">Klasik Türk Kahvesi 100 gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺19,90</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺19,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
@@ -455,9 +367,7 @@ Ending Contact
     <div class="row w-90 m-auto my-4">
       <div class="col-4 text-center"><hr /></div>
       <div class="col-4">
-        <h2 class="text-center" style="font-weight: bolder; padding: 0px -20px">
-          ÇOK SATANLAR
-        </h2>
+        <h2 class="text-center division">ÇOK SATANLAR</h2>
       </div>
       <div class="col-4 text-center"><hr /></div>
     </div>
@@ -469,235 +379,130 @@ Ending Contact
       style="display: flex; justify-content: space-between"
     >
       <!-- Products 02/Card 01 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%14</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%14</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/cool-lime-aromal%C4%B1-kahve--kokteyl-%C5%9Furup-700-ml"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/surup-cool-lime-715311.jpg"
               alt=""
             />
-            <p>Cool Lime Aromalı Kahve & Kokteyl Şurup 700 ml</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺129,00</strike> <b style="font-size: 20px">₺111,00</b>
+            <p class="textInCard">
+              Cool Lime Aromalı Kahve & Kokteyl Şurup 700 ml
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺129,00</strike> <b>₺111,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 02/Card 01 ENDS -->
 
       <!-- Products 02/Card 02 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%14</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%14</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/hibiskus-aromal%C4%B1-kahve--kokteyl-%C5%9Furup-700-ml"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/surup-hibiskus-7-b60b.jpg"
               alt=""
             />
-            <p>Hibiskus Aromalı Kahve & Kokteyl Şurup 700 ml</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺129,00</strike> <b style="font-size: 20px">₺111,00</b>
+            <p class="textInCard">
+              Hibiskus Aromalı Kahve & Kokteyl Şurup 700 ml
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺129,00</strike> <b>₺111,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 02/Card 02 ENDS -->
 
       <!-- Products 02/Card 03 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%16</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%16</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/mojito-nane-aromal%C4%B1-kahve--kokteyl-%C5%9Furup-700-ml"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/surup-mojito-mint---46b4-.jpg"
               alt=""
             />
-            <p>Mojito Nane Aromalı Kahve & Kokteyl Şurup 700 ml</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺129,00</strike> <b style="font-size: 20px">₺109,00</b>
+            <p class="textInCard">
+              Mojito Nane Aromalı Kahve & Kokteyl Şurup 700 ml
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺129,00</strike> <b>₺109,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 02/Card 03 ENDS -->
 
       <!-- Products 02/Card 04 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%9</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%9</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/karamel-aromal%C4%B1-kahve--kokteyl-%C5%9Furup-700-ml"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/surup-karamel-2a-98d.jpg"
               alt=""
             />
-            <p>Karamel Aromalı Kahve & Kokteyl Şurup 700 ml</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺99,00</strike> <b style="font-size: 20px">₺90,00</b>
+            <p class="textInCard">
+              Karamel Aromalı Kahve & Kokteyl Şurup 700 ml
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺99,00</strike> <b>₺90,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 02/Card 04 ENDS -->
 
       <!-- Products 02/Card 05 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%10</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%10</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/f%C4%B1nd%C4%B1k-aromal%C4%B1-kahve--kokteyl-%C5%9Furup-700-ml"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/surup-findik--99a8-.jpg"
               alt=""
             />
-            <p>Fındık Aromalı Kahve & Kokteyl Şurup 700 ml</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺99,00</strike> <b style="font-size: 20px">₺89,00</b>
+            <p class="textInCard">
+              Fındık Aromalı Kahve & Kokteyl Şurup 700 ml
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺99,00</strike> <b>₺89,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
@@ -709,9 +514,7 @@ Ending Contact
     <div class="row w-90 m-auto my-4">
       <div class="col-4 text-center"><hr /></div>
       <div class="col-4">
-        <h2 class="text-center" style="font-weight: bolder; padding: 0px -20px">
-          KAHVELER
-        </h2>
+        <h2 class="text-center division">KAHVELER</h2>
       </div>
       <div class="col-4 text-center"><hr /></div>
     </div>
@@ -723,231 +526,112 @@ Ending Contact
       style="display: flex; justify-content: space-between"
     >
       <!-- Products 03/Card 01 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%20</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%20</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/dag-cilekli-turk-kahvesi-100-gr-"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/dag-cilekli-turk-kahvesi-100-gr--fba-e7.jpg"
               alt=""
             />
-            <p>Dağ Çilekli Türk Kahvesi 100 Gr</p>
+            <p class="textInCard">Dağ Çilekli Türk Kahvesi 100 Gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺28,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺28,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 03/Card 01 ENDS -->
       <!-- Products 03/Card 02 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%30</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%30</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/damla-sakizli-turk-kahvesi-100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/damla-sakizli-turk-kahvesi-100-gr-fd9b-4.jpg"
               alt=""
             />
-            <p>Damla Sakızlı Türk Kahvesi 100 Gr</p>
+            <p class="textInCard">Damla Sakızlı Türk Kahvesi 100 Gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺40,00</strike> <b style="font-size: 20px">₺28,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺40,00</strike> <b>₺28,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 03/Card 02 ENDS -->
       <!-- Products 03/Card 03 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%20</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%20</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/gullu-lokumlu-turk-kahvesi-100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/gullu-lokumlu-turk-kahvesi-100-gr-ad2b-4.jpg"
               alt=""
             />
-            <p>Güllü Lokumlu Türk Kahvesi 100 Gr</p>
+            <p class="textInCard">Güllü Lokumlu Türk Kahvesi 100 Gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺28,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺28,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 03/Card 03 ENDS -->
       <!-- Products 03/Card 04 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%26</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/dibek-turk-kahvesi-100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%26</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/dibek-turk-kahvesi-100-gr">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/dibek-turk-kahvesi-100-gr-e-5a33.jpg"
               alt=""
             />
-            <p>Dibek Türk Kahvesi 100 Gr</p>
+            <p class="textInCard">Dibek Türk Kahvesi 100 Gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺26,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺26,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 03/Card 04 ENDS -->
       <!-- Products 03/Card 05 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%26</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/turk-kahvesi--100-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%26</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/turk-kahvesi--100-gr">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/turk-kahvesi-100-gr-cc0-8e.jpg"
               alt=""
             />
-            <p>Türk Kahvesi 100 Gr</p>
+            <p class="textInCard">Türk Kahvesi 100 Gr</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺35,00</strike> <b style="font-size: 20px">₺26,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺35,00</strike> <b>₺26,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
@@ -959,9 +643,7 @@ Ending Contact
     <div class="row w-90 m-auto my-4">
       <div class="col-4 text-center"><hr /></div>
       <div class="col-4">
-        <h2 class="text-center" style="font-weight: bolder; padding: 0px -20px">
-          BİTKİ ÇAYLARI
-        </h2>
+        <h2 class="text-center division">BİTKİ ÇAYLARI</h2>
       </div>
       <div class="col-4 text-center"><hr /></div>
     </div>
@@ -973,231 +655,108 @@ Ending Contact
       style="display: flex; justify-content: space-between"
     >
       <!-- Products 04/Card 01 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%11</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/elma-cayi-150-gr1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%11</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/elma-cayi-150-gr1">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/elma-cayi-150-gr--622ca.jpg"
               alt=""
             />
-            <p>Elma Çayı 150 GR</p>
+            <p class="textInCard">Elma Çayı 150 GR</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺65,00</strike> <b style="font-size: 20px">₺58,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺65,00</strike> <b>₺58,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 04/Card 01 ENDS -->
       <!-- Products 04/Card 02 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%4</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/rose-cayi-70-gr1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%4</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/rose-cayi-70-gr1">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/rose-cayi-70-gr-38cd33.jpg"
               alt=""
             />
-            <p>Rose Çayı 70 GR</p>
+            <p class="textInCard">Rose Çayı 70 GR</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺48,00</strike> <b style="font-size: 20px">₺46,90</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺48,00</strike> <b>₺46,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 04/Card 02 ENDS -->
       <!-- Products 04/Card 03 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%23</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/dream-cay-25-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%23</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/dream-cay-25-gr">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/dream-cayi-25-gr-9b7d94.jpg"
               alt=""
             />
-            <p>Dream Çay 25 GR</p>
+            <p class="textInCard">Dream Çay 25 GR</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺39,00</strike> <b style="font-size: 20px">₺30,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺39,00</strike> <b>₺30,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 04/Card 03 ENDS -->
       <!-- Products 04/Card 04 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%0</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/white-tea-50-gr1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%0</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/white-tea-50-gr1">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/white-tea-50-gr-b01287.jpg"
               alt=""
             />
-            <p>White Tea 50 GR</p>
+            <p class="textInCard">White Tea 50 GR</p>
           </a>
           <span style="float: left"
             ><p>
-              <b style="font-size: 20px">₺54,00</b>
+              <b>₺54,00</b>
             </p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 04/Card 04 ENDS -->
       <!-- Products 04/Card 05 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%20</span
-          >
-          <div style="clear: both"></div>
-          <a
-            href="https://www.benimdiyarim.com/rezene-cayi-110-gr1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
-          >
+          <span class="px-2 spanSale">%20</span>
+          <div class="clearFloat"></div>
+          <a href="https://www.benimdiyarim.com/rezene-cayi-110-gr1">
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/rezene-cayi-110-gr-f313-4.jpg"
               alt=""
             />
-            <p>Rezene Çayı 110 GR</p>
+            <p class="textInCard">Rezene Çayı 110 GR</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺40,00</strike> <b style="font-size: 20px">₺32,00</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺40,00</strike> <b>₺32,00</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
@@ -1209,9 +768,7 @@ Ending Contact
     <div class="row w-90 m-auto my-4">
       <div class="col-4 text-center"><hr /></div>
       <div class="col-4">
-        <h2 class="text-center" style="font-weight: bolder; padding: 0px -20px">
-          Hediyelik Ürünler
-        </h2>
+        <h2 class="text-center division">Hediyelik Ürünler</h2>
       </div>
       <div class="col-4 text-center"><hr /></div>
     </div>
@@ -1223,231 +780,121 @@ Ending Contact
       style="display: flex; justify-content: space-between"
     >
       <!-- Products 05/Card 01 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%5</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%5</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/dolgulu-s%C3%BCtl%C3%BC-bitter-beyaz-%C3%A7ikolata-312-gr"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/cikolata-spesiyal-506-gr-cantali--471-cc.jpg"
               alt=""
             />
-            <p>Dolgulu Sütlü Bitter Beyaz Çikolata 312 gr SPECIAL</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺190,00</strike> <b style="font-size: 20px">₺179,90</b>
+            <p class="textInCard">
+              Dolgulu Sütlü Bitter Beyaz Çikolata 312 gr SPECIAL
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺190,00</strike> <b>₺179,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 05/Card 01 ENDS -->
       <!-- Products 05/Card 02 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%31</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%31</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/silikon-kapakl%C4%B1-renkli-desenli-kahve-barda%C4%9F%C4%B1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/-splash-silikon-kapakli-renkli-desenli-f-4b4e.jpg"
               alt=""
             />
-            <p>Silikon Kapaklı Renkli Desenli Kahve Bardağı</p>
-          </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺64,90</strike> <b style="font-size: 20px">₺44,90</b>
+            <p class="textInCard">
+              Silikon Kapaklı Renkli Desenli Kahve Bardağı
             </p>
+          </a>
+          <span class="price"
+            ><p class="textInCard"><strike>₺64,90</strike> <b>₺44,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 05/Card 02 ENDS -->
       <!-- Products 05/Card 03 BEGIN -->
-      <div class="card m-auto w-18">
-        <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%31</span
-          >
-          <div style="clear: both"></div>
+
+      <div class="card smallCard m-auto w-18">
+        <div style="text-align: center; min-height: 150px">
+          <span class="px-2 spanSale">%31</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/-kapakl%C4%B1-kahve-diyar%C4%B1-logolu-kahve-barda%C4%9F%C4%B1"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/-splash-silikon-kapakli-kahve-diyari-l-07-b79.jpg"
               alt=""
             />
-            <p>Kapaklı Kahve Diyarı Logolu Kahve Bardağı</p>
+            <p class="textInCard">Kapaklı Kahve Diyarı Logolu Kahve Bardağı</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺64,90</strike> <b style="font-size: 20px">₺44,90</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺64,90</strike> <b>₺44,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 05/Card 03 ENDS -->
       <!-- Products 05/Card 04 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%20</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%20</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/madlen-%C3%A7ikolata-506-gr--s%C3%BCtl%C3%BC-/-bitter"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/madlen-cikolata-506-gr-sutlu-bitter--c22bf.jpg"
               alt=""
             />
-            <p>Modlen Çikolata 506 Gr Sütlü / Bitter</p>
+            <p class="textInCard">Modlen Çikolata 506 Gr Sütlü / Bitter</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺299,00</strike> <b style="font-size: 20px">₺239,99</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺299,00</strike> <b>₺239,99</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
       <!-- Products 05/Card 04 ENDS -->
       <!-- Products 05/Card 05 BEGIN -->
-      <div class="card m-auto w-18">
+      <div class="card smallCard m-auto w-18">
         <div style="text-align: center">
-          <span
-            style="
-              float: right;
-              background-color: goldenrod;
-              color: white;
-              border-radius: 20px;
-              margin: 6px;
-            "
-            class="px-2"
-            >%20</span
-          >
-          <div style="clear: both"></div>
+          <span class="px-2 spanSale">%20</span>
+          <div class="clearFloat"></div>
           <a
             href="https://www.benimdiyarim.com/%C3%A7ikolata-spesiyal-506-gr-(-%C3%A7antal%C4%B1-)"
-            style="
-              text-decoration: none;
-              width: 250px;
-              height: 150px;
-              overflow: hidden;
-            "
           >
             <img
-              style="width: 200px"
               src="https://static.ticimax.cloud/43426/uploads/urunresimleri/thumb/cikolata-spesiyal-506-gr-cantali--471-cc.jpg"
               alt=""
             />
-            <p>ÇİKOLATA SİPESİYAL 506 GR</p>
+            <p class="textInCard">ÇİKOLATA SİPESİYAL 506 GR</p>
           </a>
-          <span style="float: left"
-            ><p>
-              <strike>₺250,00</strike> <b style="font-size: 20px">₺199,90</b>
-            </p>
+          <span class="price"
+            ><p class="textInCard"><strike>₺250,00</strike> <b>₺199,90</b></p>
           </span>
-          <span style="float: right"
-            ><a href=""
-              ><i
-                class="fa-sharp fa-regular fa-heart"
-                style="color: black"
-              ></i></a
+          <span class="heart"
+            ><a href=""><i class="fa-sharp fa-regular fa-heart"></i></a
           ></span>
         </div>
       </div>
@@ -1507,12 +954,12 @@ Ending Contact
     <!-- Ending Contact ENDS -->
 
     <!-- Bootstrap JavaScript -->
-    <script src="./bootstrap.bundle.js"></script>
+    <!-- <script src="./bootstrap.bundle.js"></script> -->
     <!-- Bootstrap JavaScript CDN -->
-    <!-- <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
   </body>
 </html>

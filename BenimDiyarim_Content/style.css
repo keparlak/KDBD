@@ -46,3 +46,74 @@ a {
   color: black;
   text-align: left;
 }
+
+/* Card BEGINS */
+
+/* Card / Card Elements BEGINS */
+.spanNew {
+  float: left;
+  background-color: black;
+}
+.spanSale {
+  float: right;
+  background-color: goldenrod;
+}
+.spanNew,
+.spanSale {
+  color: white;
+  border-radius: 20px;
+  margin: 6px;
+}
+.price {
+  float: left;
+}
+.price b {
+  font-size: 20px;
+}
+.heart {
+  float: right;
+}
+.heart i {
+  color: black;
+  font-size: 18px;
+  margin: 8px;
+}
+.textInCard {
+  margin-left: 4px;
+}
+.clearFloat {
+  clear: both;
+}
+/* Card / Card Elements ENDS */
+
+/* Card / Big Card BEGINS */
+.bigCard a {
+  text-decoration: none;
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+}
+.bigCard img {
+  width: 250px;
+}
+/* Card / Big Card ENDS */
+/* Card / Small Card BEGINS */
+.smallCard a {
+  text-decoration: none;
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+}
+.smallCard img {
+  width: 200px;
+}
+/* Card / Small Card ENDS */
+
+/* Card ENDS */
+
+/* Division BEGINS */
+.division {
+  font-weight: bolder;
+  padding: 0px -20px;
+}
+/* Division ENDS */
