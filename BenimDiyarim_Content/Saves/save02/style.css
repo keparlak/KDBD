@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fontVag {
+  font-family: Vag;
+}
+.fontSerif {
+  font-family: serif;
+}
+.fontVagSerif {
+  font-family: Vag, serif;
+}
+
+@font-face {
+  font-family: Vag;
+
+  src: url(./fonts/VAGRoundedBT.ttf);
+}
+
+.centerFlex {
+  display: flex;
+  justify-content: center;
+}
+.w-90 {
+  width: 90% !important;
+}
+.mt-10 {
+  margin-top: 10rem !important;
+}
