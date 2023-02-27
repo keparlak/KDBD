@@ -31,30 +31,30 @@
   <body>
     <!-- NAVBAR BAŞLANGIÇ -->
     <!-- topNavbar -->
-    <div class="container-fluid container-topNavbar">
-      <div class="container d-flex flex-row justify-content-between">
-        <div class="lang">
-          <ul>
-            <li>
-              <img
-                src="https://cdn.iconscout.com/icon/premium/png-512-thumb/turkey-flag-3847008-3195954.png?f=avif&w=256"
-                alt=""
-              />
-            </li>
-            <a href="">Türkçe</a>
-          </ul>
+    <div class="container-fluid container-topNavbar d-flex align-items-center">
+      <div
+        class="container d-flex flex-row justify-content-between align-items-center"
+      >
+        <div class="lang d-flex align-items-center justify-content-center">
+          <img
+            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/turkey-flag-3847008-3195954.png?f=avif&w=256"
+            alt=""
+          />
+
+          <a href="">Türkçe</a>
         </div>
 
-        <div>
-          <i class="fa-solid fa-truck"></i>&nbsp;<strong>
-            200 TL ÜZERİ ALIŞVERİŞLERDE ÜCRETSİZ KARGO</strong
-          >
+        <div
+          class="h-100 d-flex align-items-center justify-content-center gap-1"
+        >
+          <i class="fa-solid fa-truck"></i>
+          <strong> 200 TL ÜZERİ ALIŞVERİŞLERDE ÜCRETSİZ KARGO</strong>
         </div>
         <div>
           <ul>
             <li>
-              <a href="" style="color: black"
-                ><i class="fa-regular fa-user"></i>&nbsp;Üye Giriş &nbsp;/</a
+              <a href="UyeGiris.html" style="color: black"
+                ><i class="fa-regular fa-user"></i> Üye Giriş /</a
               >
             </li>
             <li><a href="">Üye Ol</a></li>
@@ -68,21 +68,30 @@
       <div class="container-fluid sticky-top">
         <div class="container d-flex justify-content-between text-black">
           <div class="logo">
-            <img
-              src="https://static.ticimax.cloud/43426/uploads/editoruploads/bdlogo-01.jpg"
-              alt="Logo"
-            />
+            <a href="index.html">
+              <img
+                src="https://static.ticimax.cloud/43426/uploads/editoruploads/bdlogo-01.jpg"
+                alt="Logo"
+            /></a>
           </div>
           <nav>
             <ul class="mx-2 p-4">
-              <li class="my-dropdown dropdown">
-                <a href="#">Kahveler</a>
-                <ul>
+              <li class="nav-item dropdown position-relative">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="kahveler.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Kahveler
+                </a>
+                <ul class="dropdown-menu position-absolute left-0">
+                  <li><a class="dropdown-item" href="#">Türk Kahvesi</a></li>
                   <li>
-                    <div>
-                      <a href="#">Türk Kahvesi</a
-                      ><a href="#">Filtre Kahve & Espresso</a>
-                    </div>
+                    <a class="dropdown-item" href="#"
+                      >Filtre Kahve & Espresso</a
+                    >
                   </li>
                 </ul>
               </li>

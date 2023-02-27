@@ -4,29 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./bd_kahveler.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
+    <title>Benim Diyarim</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <title>Kahve Çeşitleri</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css"
+      integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <section class="section-products">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="header">
-              <ul class="sortingContent"></ul>
-            </div>
+    <!-- NAVBAR BAŞLANGIÇ -->
+    <!-- topNavbar -->
+    <div class="container-fluid container-topNavbar d-flex align-items-center">
+      <div
+        class="container d-flex flex-row justify-content-between align-items-center"
+      >
+        <div class="lang d-flex align-items-center justify-content-center">
+          <img
+            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/turkey-flag-3847008-3195954.png?f=avif&w=256"
+            alt=""
+          />
+
+          <a href="">Türkçe</a>
+        </div>
+
+        <div
+          class="h-100 d-flex align-items-center justify-content-center gap-1"
+        >
+          <i class="fa-solid fa-truck"></i>
+          <strong> 200 TL ÜZERİ ALIŞVERİŞLERDE ÜCRETSİZ KARGO</strong>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="UyeGiris.html" style="color: black"
+                ><i class="fa-regular fa-user"></i> Üye Giriş /</a
+              >
+            </li>
+            <li><a href="">Üye Ol</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar2 -->
+
+    <header>
+      <div class="container-fluid sticky-top">
+        <div class="container d-flex justify-content-between text-black">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="https://static.ticimax.cloud/43426/uploads/editoruploads/bdlogo-01.jpg"
+                alt="Logo"
+            /></a>
+          </div>
+          <nav>
+            <ul class="mx-2 p-4">
+              <li class="nav-item dropdown position-relative">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="kahveler.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Kahveler
+                </a>
+                <ul class="dropdown-menu position-absolute left-0">
+                  <li><a class="dropdown-item" href="#">Türk Kahvesi</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Filtre Kahve & Espresso</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="#">Çaylar</a></li>
+              <li><a href="#">Şuruplar</a></li>
+              <li><a href="#">Atıştırmalık</a></li>
+              <li><a href="#">Hediyelik</a></li>
+            </ul>
+          </nav>
+          <div class="search-cart">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
           </div>
         </div>
+      </div>
+    </header>
+    <!-- NAVBAR BİTİŞ -->
+    <section class="section-products">
+      <div class="container pageNavitor">
+        <nav aria-label="breadcrumb  ">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <i class="fa-solid fa-location-pin mx-2"></i
+              ><a href="#">Anasayfa</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Kahveler</li>
+          </ol>
+        </nav>
+
         <div class="main-container col-12">
           <div class="siralamamain col-10 d-flex justify-content-start">
             <div class="siralama d-flex justify-content-start">
@@ -443,5 +538,120 @@
       </div>
       <script src="./bootstrap.bundle.js"></script>
     </section>
+
+    <!-- FOOTER BAŞLANGIÇ -->
+    <footer>
+      <div class="footer-top">
+        <div
+          class="container-fluid d-flex px-0 justify-content-center flex-column align-items-center"
+        >
+          <div class="footer-logo divider h-100">
+            <img
+              src="https://static.ticimax.cloud/43426/uploads/editoruploads/bdlogo-01.jpg"
+              alt="Footer Logo"
+            />
+          </div>
+          <div class="mobile-apps my-5 d-flex align-items-center gap-4">
+            <span class="mx-2 d-flex align-items-center gap-2"
+              ><strong>Bizi Takip Edin</strong
+              ><a href="https://www.instagram.com/kahvediyariofficial/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </span>
+            <span class="mx-2"
+              ><strong>Mobil Uygulamamız Yakında</strong>
+            </span>
+            <a href="#" class="d-flex align-items-center"
+              ><i class="fab fa-apple"></i></a
+            ><a href="#"
+              ><i class="fab fa-google-play" style="font-size: small"></i
+            ></a>
+          </div>
+        </div>
+        <div class="container-fluid footerBg py-5">
+          <div class="container d-flex flex-row footer-middle">
+            <ul class="w-100">
+              <span class="footerMenuBaslik text-uppercase d-block"
+                >Popüler Katergoriler</span
+              >
+              <li><a href="#">Kahve</a></li>
+              <li><a href="#">Fit Lezzetler</a></li>
+              <li><a href="#">Tatlılar</a></li>
+              <li><a href="#">Hediyelik Ürün</a></li>
+            </ul>
+
+            <ul class="w-100">
+              <span class="footerMenuBaslik text-uppercase d-block"
+                >Alışveriş</span
+              >
+              <li><a href="#">Siparişlerim</a></li>
+              <li><a href="#">Sepetim</a></li>
+              <li><a href="#">İade Taleplerim</a></li>
+              <li><a href="#">Hesabım</a></li>
+            </ul>
+            <ul class="w-100">
+              <span class="footerMenuBaslik text-uppercase d-block"
+                >Müşteri</span
+              >
+              <li><a href="#">Sıkça Sorulan Sorular</a></li>
+              <li><a href="#">İptal ve İade Koşulları</a></li>
+              <li><a href="#">KVKK Aydınlatma Metni</a></li>
+              <li><a href="#">Mesafeli Satış Sözleşmesi</a></li>
+            </ul>
+            <ul class="w-100">
+              <span class="footerMenuBaslik text-uppercase d-block"
+                >Kurumsal</span
+              >
+              <li><a href="#">Hakkında</a></li>
+              <li><a href="#">İletişim</a></li>
+            </ul>
+            <div class="w-100 ebulten flex-grow-2">
+              <span class="footerMenuBaslik text-uppercase d-block"
+                >E-BÜLTEN KAYIT</span
+              >
+              <span class="ebultenYazi"
+                >Kampanyalarımızdan ve indirimlerimizden güncel olarak haberdar
+                olun</span
+              >
+              <div class="mt-3 position-relative">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-posta adresinizi yazın.."
+                />
+                <a href="" class="btn ebultenBtn">Gönder</a>
+              </div>
+              <div class="copy">
+                <span>© 2021 Benimdiyarim.com - Tüm hakları saklıdır</span>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid footer-bottom">
+            <div
+              class="container d-flex border-resim px-0 justify-content-between py-5 mt-5"
+            >
+              <img
+                src="https://cdn.ticimax.com/Uploads/hazirSablonResimleri/footerImg/bankimg14.png"
+                alt="Credit Card"
+              />
+              <img
+                id="img2"
+                src="https://static.ticimax.cloud/43426/uploads/editoruploads/kg-grubu-markasi-01.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="ticimax">
+          <a target="_blank" href="https://www.ticimax.com">
+            <img
+              src="https://www.benimdiyarim.com/Scripts/images/logo-60x20px.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
