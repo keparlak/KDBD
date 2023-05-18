@@ -1,17 +1,37 @@
-# KahveDiyari
+# Kahvediyari.com.tr ve Benimdiyarim.com Clone Projesi
 
-- [X] Mert Furkan Hız: https://www.benimdiyarim.com/ (Online alışveriş anasayfa content)
-- [X] Taha Yasin Öztürk: kahvediyari.com.tr (Kurumsal Sayfası) --> kd_kurumsal.html
-- [X] Canberk Coşkun: benimdiyarim.com (Navbar - Footer)
-- [X] Elif Nur Kutluğ: kahvediyari.com.tr (Navbar ve Footer)
-- [X] Bihter Ertürk, Muhammet Tungaç: kahvediyari.com.tr (Anasayfa Middle) --> kd_index.html
-- [X] Muhammet Kuş: kahvediyari.com.tr (Şubelerimiz Sayfasi) --> kd_subeler.html
-- [X] Halil Can Uzun: kahvediyari.com.tr (Konseptler Sayfasi) --> kd_konseptler.html
-- [X] Enes Eay: kahvediyari.com.tr (Franchise Sayfasi)
-- [X] Talha Emre UZUNOĞLU: benimdiyarim.com (Kahveler)
-- [X] Uğur Kartal: kahvediyari.com.tr (İletişim Sayfası) --> kd_iletisim.html
-- [X] Kadir Emre Parlak: benimdiyarim.com (Giriş Yap)
-- [X] Alpaslan Tez: benimdiyarim.com (Üye Ol)
+Bu proje, Kahvediyari.com.tr ve Benimdiyarim.com sitelerinin HTML, CSS ve JavaScript kullanılarak klonlanması amacıyla oluşturulmuştur. Bu README dosyası, projenin nasıl kullanılacağına ve projenin genel yapısına dair bilgilere yer vermektedir.
 
+## Proje Hakkında
 
-- [X] Klon Projeleri Tamamlandı ✔
+Bu proje, popüler e-ticaret siteleri Kahvediyari.com.tr ve Benimdiyarim.com'un arayüzünü ve bazı temel özelliklerini klonlamayı amaçlamaktadır. Proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir ve kullanıcılara siteleri gezinme ve ürünleri görüntüleme imkanı sunmaktadır.
+
+## Nasıl Kullanılır
+
+1. Proje deposunu bilgisayarınıza klonlayın:
+
+   ```bash
+   git clone https://github.com/username/repo.git
+   ```
+
+2. Proje klasörüne gidin:
+
+   ```bash
+   cd repo
+   ```
+
+3. İlgili HTML dosyalarını tarayıcınızda açarak sitenin farklı bölümlerini inceleyebilirsiniz.
+
+4. CSS dosyalarını inceleyerek sitenin tasarımını ve stilini gözlemleyebilirsiniz.
+
+5. JavaScript dosyalarını inceleyerek sitenin bazı etkileşimli özelliklerini ve işlevselliğini gözlemleyebilirsiniz.
+
+Projeyi kendi bilgisayarınıza klonladıktan sonra bu dosya ve klasör yapısını inceleyebilir ve istediğiniz şekilde değiştirebilirsiniz.
+
+## Katkıda Bulunma
+
+Bu proje şu anda bir klon proje olduğu için katkıda bulunmak için doğrudan projeye katkı sağlamak yerine, orijinal siteler olan Kahvediyari.com.tr ve Benimdiyarim.com'un geliştiricilerine katkıda bulunmanızı öneririm. Bu sitelerin kendi GitHub sayfalarında projelerine katkı sağlamak için geliştirme ekipleriyle iletişime geçebilirsiniz.
+
+## Lisans
+
+Bu proje için herhangi bir lisans belirtilmemiştir. Orijinal siteler olan Kahvediyari.com.tr ve Benimdiyarim.com'un kullanım koşullarına uyulması önemlidir. Proje üzerinde yapılan değişikliklerin, orijinal sitelerin telif hakkı ve kullanım koşullarına uygun olması gerekmek
